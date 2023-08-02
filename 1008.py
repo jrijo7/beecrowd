@@ -1,0 +1,6 @@
+NUMBER=int(input())
+HORAS=int(input())
+VALORPORHORA=float(input())
+SALARY = float(VALORPORHORA*HORAS)
+print("NUMBER = " +str(NUMBER))
+print("SALARY = U$ %.2f" %SALARY)
